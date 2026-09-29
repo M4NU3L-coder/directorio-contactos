@@ -32,3 +32,23 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+#lista-contactos {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-contactos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#lista-contactos button {
+  background-color: #dc3545;
+  color: white;
+}
