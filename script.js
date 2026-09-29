@@ -28,3 +28,9 @@ formulario.addEventListener("submit", function (event) {
   nombreInput.value = "";
   telefonoInput.value = "";
 });
+
+listaContactos.addEventListener("click", function (event) {
+  if (event.target.tagName === "BUTTON") {
+    event.target.parentElement.remove();
+  }
+});
